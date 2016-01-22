@@ -1,0 +1,132 @@
+html {
+  color: rgb(142, 139, 139)
+}
+/* HEADER */
+
+header {
+  background-image: url(../images/payments-banner-graphic.png);
+  background-position: center center;
+  background-size: 120%;
+  height: 37em;
+  color: white;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+nav {
+  height: 5em;
+  padding-top: 0.2em;
+  margin-bottom: 6em;
+}
+
+#logo {
+  float: left;
+  height: 45%;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+#titre {
+  margin: 0;
+  padding-top: 1.22em;
+  margin-left: 0.7em;
+  font-size: 1.2em;
+  display: inline-block;
+  letter-spacing: 4px;
+  float: left;
+
+}
+
+#login, #signUp{
+  float: right;
+  margin: 1.4em 0.7em auto 0.9em;
+  background-color: transparent;
+  border : none;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+
+}
+
+#loremTitre {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: normal;
+}
+#loremSousTitre {
+ text-align: center;
+ font-size: 1.5em;
+}
+
+#boutonHeader {
+ color: rgba(84, 18, 207, 0.70);
+ background-color: white;
+ border-radius: 5px;
+ height: 2.8em;
+ width: 22em;
+}
+
+.marginHeader {
+ margin: 0.8em;
+}
+
+/* div Payement */
+
+.divPay {
+ float: left;
+ width: 33.2%;
+ text-align: center;
+ border-left: 1px rgba(172, 172, 172, 0.84) solid;
+
+}
+
+.imgPay {
+ width: 4.5em;
+ margin-bottom: 1em;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.divPay p{
+  margin-bottom: 0;
+}
+
+/* div Price */
+
+.price {
+  border-top: 1px rgba(172, 172, 172, 0.84) solid;
+  margin-top: 20em;
+  background-color: rgba(137, 182, 186, 0.25);
+  text-align: center;
+  padding: 3.5em 0;
+}
+
+.price p {
+  margin-bottom: 2.5em;
+  font-size: 1.5em;
+}
+
+#dollar {
+  display: inline-block;
+  font-size: 4.3em;
+  margin: 0;
+  color: rgb(133, 107, 208);
+}
+
+#dollarSide {
+  display: inline-block;
+  font-size: 2.2em;
+  vertical-align: top;
+  margin: 0.4em 0 0 0;
+  text-align: left;
+  line-height: 0.8em;
+  color: rgb(75, 73, 73)
+
+}
+
+span {
+  font-size: 0.5em;
+  color: rgb(178, 175, 180)
+}
